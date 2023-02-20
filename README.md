@@ -1,5 +1,6 @@
 # Memories Downloader
 Python script allows you to automatically download all the memories from your Snapchat account using the JSON file of your exported data.
+
 The metadata for each photo or video is also set based on the date and location specified in the JSON file.
 
 ## Prerequisites
@@ -26,4 +27,6 @@ python memories_downloader.py
 
 The script will then ask what is the name of the json file, leave empty if the file has not been renamed.
 
-The script will download all your memories to a folder named `Snapchat Memories` located in the same directory as the `memories_downloader.py` file. The metadata of each file will also be updated with the date and location of the photo or video
+The script will download all your memories to a folder named `Snapchat Memories` located in the same directory as the `memories_downloader.py` file.
+
+The metadata of each file will also be updated with the date and location of the photo or video.
